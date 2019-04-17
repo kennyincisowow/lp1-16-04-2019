@@ -1,0 +1,77 @@
+/* bordera form */
+
+body{
+    width: 30%;
+    height: 30%;
+    padding-left: 30%;
+}
+form {
+    border: 3px solid #4CAF50;
+  }
+  
+  /* input cajas */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* estilos a los botnes */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* efceto ah botones */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+ 
+  /* centara img al container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* img */
+  img.avatar {
+    width: 20%;
+    
+    border-radius: 50%;
+  }
+  
+  /* agregar paddin al container */
+  .container {
+    padding: 16px;
+    
+   
+  }
+  
+   span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+ 
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  
+ 
+  
+   
